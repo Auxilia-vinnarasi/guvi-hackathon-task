@@ -29,3 +29,9 @@ body {
         font-size: 10px;
     }
 }
+.repo-name-details {
+    border: 2px solid rgb(133, 92, 199);
+    border-radius: 18px;
+    padding: 10px;
+    background-image: linear-gradient(to right, #edf4f5, #f1f6f7, #f4f8fa, #f8fafb, #fbfcfd, #f9fbfe, #f7fbfe, #f5faff, #e8f8ff, #d8f7ff, #c8f5fa, #bbf4f0);
+}
