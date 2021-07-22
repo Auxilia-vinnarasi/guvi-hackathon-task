@@ -93,7 +93,7 @@ function renderRepoList(repoList) {
     } else {
 
         repoDiv.innerHTML = `${repoList.map((repo)=>{return `
-            <div class="my-2">
+            <div class="my-2" repo-name-details>
                 <h4 class="repo-name text-primary">Repos Name : ${repo.name}</h4>
                 <a href="${repo.html_url}"><h6 class="repo-name text-primary">Repos Link : ${repo.html_url}</a></h6>
                 <h6 class="repo-name text-primary">ForksCount : ${repo.forks_count}</h6>
