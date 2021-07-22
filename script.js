@@ -69,9 +69,7 @@ async function getRepoListOfUser(repoListLink) {
     }
 }
 
-function renderNavBar() {
-    document.getElementById('navbar').classList.remove('d-none');
-}
+
 
 async function renderUserProfile(user) {
     document.getElementById('user').classList.remove('d-none');
@@ -84,7 +82,7 @@ async function renderUserProfile(user) {
     let repoList = await getRepoListOfUser(user.repos_url);
     renderRepoList(repoList);
     hideLandingPage();
-    renderNavBar();
+   
 }
 
 function renderRepoList(repoList) {
